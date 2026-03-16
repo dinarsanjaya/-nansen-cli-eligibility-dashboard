@@ -1,0 +1,88 @@
+{
+  "generatedAt": "2026-03-16T16:38:15.299133Z",
+  "version": "1.17.0",
+  "target": 10,
+  "successCount": 0,
+  "results": [
+    {
+      "cmd": "/root/.npm-global/bin/nansen research smart-money netflow --chain solana --limit 3 --fields token_symbol,net_flow_usd",
+      "ok": false,
+      "rc": 1,
+      "seconds": 0.18,
+      "stdout": "{\n  \"success\": false,\n  \"error\": \"Insufficient credits. No retry will help. Check your Nansen dashboard for credit balance.\",\n  \"code\": \"CREDITS_EXHAUSTED\",\n  \"status\": 403,\n  \"details\": {\n    \"error\": \"Insufficient credits\",\n    \"detail\": \"Insufficient credits remaining to call this endpoint.\",\n    \"attempt\": 1,\n    \"retryAfterMs\": null\n  }\n}",
+      "stderr": ""
+    },
+    {
+      "cmd": "/root/.npm-global/bin/nansen research smart-money dex-trades --chain base --limit 3 --fields token_symbol,side,amount_usd",
+      "ok": false,
+      "rc": 1,
+      "seconds": 0.18,
+      "stdout": "{\n  \"success\": false,\n  \"error\": \"Insufficient credits. No retry will help. Check your Nansen dashboard for credit balance.\",\n  \"code\": \"CREDITS_EXHAUSTED\",\n  \"status\": 403,\n  \"details\": {\n    \"error\": \"Insufficient credits\",\n    \"detail\": \"Insufficient credits remaining to call this endpoint.\",\n    \"attempt\": 1,\n    \"retryAfterMs\": null\n  }\n}",
+      "stderr": ""
+    },
+    {
+      "cmd": "/root/.npm-global/bin/nansen research smart-money holdings --chain solana --limit 3 --fields token_symbol,balance_usd",
+      "ok": false,
+      "rc": 1,
+      "seconds": 0.17,
+      "stdout": "{\n  \"success\": false,\n  \"error\": \"Insufficient credits. No retry will help. Check your Nansen dashboard for credit balance.\",\n  \"code\": \"CREDITS_EXHAUSTED\",\n  \"status\": 403,\n  \"details\": {\n    \"error\": \"Insufficient credits\",\n    \"detail\": \"Insufficient credits remaining to call this endpoint.\",\n    \"attempt\": 1,\n    \"retryAfterMs\": null\n  }\n}",
+      "stderr": ""
+    },
+    {
+      "cmd": "/root/.npm-global/bin/nansen research token screener --chain base --limit 3 --fields token_symbol,price_change_24h,volume_usd",
+      "ok": false,
+      "rc": 1,
+      "seconds": 0.18,
+      "stdout": "{\n  \"success\": false,\n  \"error\": \"Insufficient credits. No retry will help. Check your Nansen dashboard for credit balance.\",\n  \"code\": \"CREDITS_EXHAUSTED\",\n  \"status\": 403,\n  \"details\": {\n    \"error\": \"Insufficient credits\",\n    \"detail\": \"Insufficient credits remaining to call this endpoint.\",\n    \"attempt\": 1,\n    \"retryAfterMs\": null\n  }\n}",
+      "stderr": ""
+    },
+    {
+      "cmd": "/root/.npm-global/bin/nansen research token flow-intelligence --chain base --limit 3 --fields token_symbol,inflow_usd,outflow_usd",
+      "ok": false,
+      "rc": 1,
+      "seconds": 0.19,
+      "stdout": "{\n  \"success\": false,\n  \"error\": \"Insufficient credits. No retry will help. Check your Nansen dashboard for credit balance.\",\n  \"code\": \"CREDITS_EXHAUSTED\",\n  \"status\": 403,\n  \"details\": {\n    \"error\": \"Insufficient credits\",\n    \"detail\": \"Insufficient credits remaining to call this endpoint.\",\n    \"attempt\": 1,\n    \"retryAfterMs\": null\n  }\n}",
+      "stderr": ""
+    },
+    {
+      "cmd": "/root/.npm-global/bin/nansen research search entities --query uniswap --limit 3",
+      "ok": false,
+      "rc": 1,
+      "seconds": 0.18,
+      "stdout": "{\n  \"success\": false,\n  \"error\": \"Insufficient credits. No retry will help. Check your Nansen dashboard for credit balance.\",\n  \"code\": \"CREDITS_EXHAUSTED\",\n  \"status\": 403,\n  \"details\": {\n    \"error\": \"Insufficient credits\",\n    \"detail\": \"Insufficient credits remaining to call this endpoint.\",\n    \"attempt\": 1,\n    \"retryAfterMs\": null\n  }\n}",
+      "stderr": ""
+    },
+    {
+      "cmd": "/root/.npm-global/bin/nansen research profiler search --query wintermute --limit 3",
+      "ok": false,
+      "rc": 1,
+      "seconds": 0.19,
+      "stdout": "{\n  \"success\": false,\n  \"error\": \"Insufficient credits. No retry will help. Check your Nansen dashboard for credit balance.\",\n  \"code\": \"CREDITS_EXHAUSTED\",\n  \"status\": 403,\n  \"details\": {\n    \"error\": \"Insufficient credits\",\n    \"detail\": \"Insufficient credits remaining to call this endpoint.\",\n    \"attempt\": 1,\n    \"retryAfterMs\": null\n  }\n}",
+      "stderr": ""
+    },
+    {
+      "cmd": "/root/.npm-global/bin/nansen research perp screener --limit 3 --fields symbol,open_interest,volume_24h",
+      "ok": false,
+      "rc": 1,
+      "seconds": 0.2,
+      "stdout": "{\n  \"success\": false,\n  \"error\": \"Insufficient credits. No retry will help. Check your Nansen dashboard for credit balance.\",\n  \"code\": \"CREDITS_EXHAUSTED\",\n  \"status\": 403,\n  \"details\": {\n    \"error\": \"Insufficient credits\",\n    \"detail\": \"Insufficient credits remaining to call this endpoint.\",\n    \"attempt\": 1,\n    \"retryAfterMs\": null\n  }\n}",
+      "stderr": ""
+    },
+    {
+      "cmd": "/root/.npm-global/bin/nansen research points leaderboard --limit 3",
+      "ok": false,
+      "rc": 1,
+      "seconds": 0.17,
+      "stdout": "{\n  \"success\": false,\n  \"error\": \"Insufficient credits. No retry will help. Check your Nansen dashboard for credit balance.\",\n  \"code\": \"CREDITS_EXHAUSTED\",\n  \"status\": 403,\n  \"details\": {\n    \"error\": \"Insufficient credits\",\n    \"detail\": \"Insufficient credits remaining to call this endpoint.\",\n    \"attempt\": 1,\n    \"retryAfterMs\": null\n  }\n}",
+      "stderr": ""
+    },
+    {
+      "cmd": "/root/.npm-global/bin/nansen research portfolio defi --wallet 0xd8dA6BF26964aF9D7eEd9e03E53415D37aA96045 --chain ethereum --fields protocol,usd_value",
+      "ok": false,
+      "rc": 1,
+      "seconds": 0.17,
+      "stdout": "{\n  \"success\": false,\n  \"error\": \"Insufficient credits. No retry will help. Check your Nansen dashboard for credit balance.\",\n  \"code\": \"CREDITS_EXHAUSTED\",\n  \"status\": 403,\n  \"details\": {\n    \"error\": \"Insufficient credits\",\n    \"detail\": \"Insufficient credits remaining to call this endpoint.\",\n    \"attempt\": 1,\n    \"retryAfterMs\": null\n  }\n}",
+      "stderr": ""
+    }
+  ]
+}
