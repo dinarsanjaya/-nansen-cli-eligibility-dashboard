@@ -1,0 +1,98 @@
+{
+  "generatedAt": "2026-03-16T16:18:39.720996Z",
+  "command": "nansen account --pretty",
+  "successfulCalls": 10,
+  "total": 10,
+  "calls": [
+    {
+      "index": 1,
+      "ok": true,
+      "seconds": 0.422,
+      "stdout": "{\n  \"success\": true,\n  \"data\": {\n    \"plan\": \"free\",\n    \"credits_remaining\": 0\n  }\n}",
+      "stderr": "",
+      "note": "plan=free credits=0",
+      "at": "2026-03-16T16:18:36.398067Z"
+    },
+    {
+      "index": 2,
+      "ok": true,
+      "seconds": 0.181,
+      "stdout": "{\n  \"success\": true,\n  \"data\": {\n    \"plan\": \"free\",\n    \"credits_remaining\": 0\n  }\n}",
+      "stderr": "",
+      "note": "plan=free credits=0",
+      "at": "2026-03-16T16:18:36.729236Z"
+    },
+    {
+      "index": 3,
+      "ok": true,
+      "seconds": 0.229,
+      "stdout": "{\n  \"success\": true,\n  \"data\": {\n    \"plan\": \"free\",\n    \"credits_remaining\": 0\n  }\n}",
+      "stderr": "",
+      "note": "plan=free credits=0",
+      "at": "2026-03-16T16:18:37.108361Z"
+    },
+    {
+      "index": 4,
+      "ok": true,
+      "seconds": 0.254,
+      "stdout": "{\n  \"success\": true,\n  \"data\": {\n    \"plan\": \"free\",\n    \"credits_remaining\": 0\n  }\n}",
+      "stderr": "",
+      "note": "plan=free credits=0",
+      "at": "2026-03-16T16:18:37.512890Z"
+    },
+    {
+      "index": 5,
+      "ok": true,
+      "seconds": 0.173,
+      "stdout": "{\n  \"success\": true,\n  \"data\": {\n    \"plan\": \"free\",\n    \"credits_remaining\": 0\n  }\n}",
+      "stderr": "",
+      "note": "plan=free credits=0",
+      "at": "2026-03-16T16:18:37.835605Z"
+    },
+    {
+      "index": 6,
+      "ok": true,
+      "seconds": 0.183,
+      "stdout": "{\n  \"success\": true,\n  \"data\": {\n    \"plan\": \"free\",\n    \"credits_remaining\": 0\n  }\n}",
+      "stderr": "",
+      "note": "plan=free credits=0",
+      "at": "2026-03-16T16:18:38.168342Z"
+    },
+    {
+      "index": 7,
+      "ok": true,
+      "seconds": 0.167,
+      "stdout": "{\n  \"success\": true,\n  \"data\": {\n    \"plan\": \"free\",\n    \"credits_remaining\": 0\n  }\n}",
+      "stderr": "",
+      "note": "plan=free credits=0",
+      "at": "2026-03-16T16:18:38.485633Z"
+    },
+    {
+      "index": 8,
+      "ok": true,
+      "seconds": 0.182,
+      "stdout": "{\n  \"success\": true,\n  \"data\": {\n    \"plan\": \"free\",\n    \"credits_remaining\": 0\n  }\n}",
+      "stderr": "",
+      "note": "plan=free credits=0",
+      "at": "2026-03-16T16:18:38.817752Z"
+    },
+    {
+      "index": 9,
+      "ok": true,
+      "seconds": 0.164,
+      "stdout": "{\n  \"success\": true,\n  \"data\": {\n    \"plan\": \"free\",\n    \"credits_remaining\": 0\n  }\n}",
+      "stderr": "",
+      "note": "plan=free credits=0",
+      "at": "2026-03-16T16:18:39.132305Z"
+    },
+    {
+      "index": 10,
+      "ok": true,
+      "seconds": 0.288,
+      "stdout": "{\n  \"success\": true,\n  \"data\": {\n    \"plan\": \"free\",\n    \"credits_remaining\": 0\n  }\n}",
+      "stderr": "",
+      "note": "plan=free credits=0",
+      "at": "2026-03-16T16:18:39.570903Z"
+    }
+  ]
+}

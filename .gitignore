@@ -1,0 +1,10 @@
+# Python
+__pycache__/
+*.pyc
+
+# Secrets / local auth
+.env
+.nansen/
+
+# OS
+.DS_Store
